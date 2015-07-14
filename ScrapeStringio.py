@@ -5,7 +5,7 @@ import pycurl
 from bs4 import BeautifulSoup
 import lxml
 
-url = 'http://na.lolesports.com/news'
+url = 'https://www.distractify.com/excuses-for-your-dog-not-for-humans-1248198479.html'
 storage = StringIO()
 storage = StringIO()
 c = pycurl.Curl()
