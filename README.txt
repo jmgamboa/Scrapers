@@ -1,1 +1,1 @@
-A collection of different Scraping Modules I use in Python
+A collection of different Scraping Modules I use in Python that passes contents into Beautiful Soup
