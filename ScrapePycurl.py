@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import pycurl
-
+import argparse
 url = 'http://gawker.com/beached-great-white-shark-hitches-ride-to-safety-via-su-1717830090'
 pycurl_connect = pycurl.Curl()
 pycurl_connect.setopt(pycurl.URL, url)

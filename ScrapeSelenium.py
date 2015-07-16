@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from selenium import webdriver
 from bs4 import BeautifulSoup
+import argparse
 
 driver = webdriver.PhantomJS()
 driver.set_window_size(1120, 550)

@@ -4,6 +4,7 @@ import pycurl
 # The BeautifulSoup module
 from bs4 import BeautifulSoup
 import lxml
+import argparse
 
 url = 'https://www.distractify.com/excuses-for-your-dog-not-for-humans-1248198479.html'
 storage = StringIO()
