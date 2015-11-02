@@ -1,7 +1,8 @@
 #!/usr/bin/python
 from ghost import Ghost
 import argparse
-# ghost is a webclient
+# ghost nicely wraps a headless, WebKit browser, and loads pages that require javascript
+
 ghost = Ghost()
 ghost.open('http://duckduckgo.com/') 
 ghost.wait_for_selector('input[name=q]')

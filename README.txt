@@ -10,5 +10,5 @@ brew install phantomjs
 
 just switch the url in each file and run
 
-ie
+ie	
 python ScrapeRequests.py

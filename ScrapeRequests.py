@@ -3,6 +3,10 @@ import requests
 from bs4 import BeautifulSoup
 import argparse
 # requests is the popular HTTP request module
-page = requests.get("https://www.google.com/flights/#search;f=EWR,JFK,LGA;t=SFO;d=2015-07-17;r=2015-07-20")
+page = requests.get("http://vice.com/")
 soup = BeautifulSoup(page.content)
-print soup
+
+# example for getting all link hrefs
+links = soup.find_all('a')
+for link in links:
+	print link['href']
