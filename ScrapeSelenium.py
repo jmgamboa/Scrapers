@@ -2,7 +2,8 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import argparse
-
+# selenium is a web driver simulator in python
+# allows you to scrape sites where javascript is required
 driver = webdriver.PhantomJS()
 driver.set_window_size(1120, 550)
 driver.get("https://www.google.com/flights/#search;f=EWR,JFK,LGA;t=SFO;q=ny+to+san+francisco;d=2015-07-29;r=2015-08-02")

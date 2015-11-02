@@ -1,6 +1,7 @@
 #!/usr/bin/python
 from ghost import Ghost
 import argparse
+# ghost is a webclient
 ghost = Ghost()
 ghost.open('http://duckduckgo.com/') 
 ghost.wait_for_selector('input[name=q]')
