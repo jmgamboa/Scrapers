@@ -4,7 +4,7 @@ Dependencies
 
 pip install -r requirements.txt
 
-easy_install pycurl
+pip install --pre Ghost.py  if you want ghost
 
 brew install phantomjs
 

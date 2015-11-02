@@ -9,4 +9,4 @@ soup = BeautifulSoup(page.content)
 # example for getting all link hrefs
 links = soup.find_all('a')
 for link in links:
-	print link['href']
+	print 'this is an href', link['href']
